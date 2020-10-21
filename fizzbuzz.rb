@@ -17,6 +17,7 @@
 #  return 0;
 #}
 #COMMIT ONCE
+#COMMIT TWICE
 1.upto(100){|i|
   if i % 3 == 0 && i % 5 == 0 then
     puts "FizzBuzz"
